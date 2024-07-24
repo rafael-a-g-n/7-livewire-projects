@@ -6,11 +6,11 @@ use Livewire\Component;
 
 class Calculator extends Component
 {
-    public $firstNumber = 0;
-    public $secondNumber = 0;
+    public $firstNumber = '';
+    public $secondNumber = '';
     public string $operator = '+';
-    public float $result = 0;
-    public bool $disabled = false;
+    public float $result;
+    public bool $disabled = true;
     public function render()
     {
         return view('livewire.calculator')
