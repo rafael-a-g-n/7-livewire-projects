@@ -39,11 +39,14 @@ class Calculator extends Component
                 $this->result = $num1 % $num2;
                 break;
         }
+
+        $this->firstNumber = '';
+        $this->secondNumber = '';
     }
 
     public function updated($property)
     {
-        if($this->firstNumber == '' || $this->secondNumber == '0'){
+        if($this->firstNumber === '' || $this->secondNumber === ''){
             $this->disabled = true;
     }else{
         $this->disabled = false;
