@@ -34,10 +34,6 @@ To get a local copy up and running, follow these simple steps:
     ```
 4. **Open your browser** to see the projects in action! ✨
 
-## 🌐 GitHub Pages
-
-Check out the live version of the site here: [7 Livewire Projects GitHub Pages](https://rafael-a-g-n.github.io/7-livewire-projects/)
-
 ## 🤝 Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
